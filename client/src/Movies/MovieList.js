@@ -3,7 +3,6 @@ import { Link, useRouteMatch } from 'react-router-dom';
 
 export default function MovieList(props) {
   const {url} = useRouteMatch();
-  console.log("url", url)
   
   return (
     <div className="movie-list">
